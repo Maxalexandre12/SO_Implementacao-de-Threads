@@ -15,19 +15,19 @@ def modoDePreparo(preparo: str, tempo_preparo: int = 3):
 def start_threads():
 
     inicio = time.time()
-
+    
     ingredientes = ["3 ovos",
                     "4 colheres de margarina",
-                    "2 xícaras de acucar",
-                    "1 e 1/2 xicara de leite",
-                    "3 xícaras de farinha de trigo", 
+                    "2 xícaras de açúcar",
+                    "1 e 1/2 xícara de leite",
+                    "3 xícaras de farinha de trigo",
                     "1 forma de bolo",
                     "1 forno"]
-
+                    
     preparo = ["1 - Bata as claras em neve e reserve.",
                "2 - Misture as gemas, com a margarina.",
-               "3 - Acresecente açúcar até obter uma massa homogênea.",
-               "4 - Acrescente o leite.", 
+               "3 - Acrescente açúcar até obter uma massa homogênea.",
+               "4 - Acrescente o leite.",
                "5 - Depois coloque farinha de trigo aos poucos, sem parar de bater.",
                "6 - Despeje a massa em uma forma grande de furo central untada e enfarinhada.",
                "7 - Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos"]
